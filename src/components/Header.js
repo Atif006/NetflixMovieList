@@ -7,7 +7,7 @@ const Header = (props) => {
     <div>
       <div className="header">
         <div className="Left">
-          <img src={mlogo} altlogo />
+          <img src={mlogo} alt='logo' />
           <span> Movie Lists</span>
         </div>
         <div className="right">
