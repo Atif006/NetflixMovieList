@@ -32,7 +32,7 @@ const Container = (props) => {
           ? props.movies.map((movie, index) => (
               <Card key={index} movie={movie} onSelect={onMovieSelect} />
             ))
-          : <h1>No Movie Search</h1>}
+          : <h1 style={{fontSize:2rem}}>No Movie Search</h1>}
       </div>
     </>
   );
